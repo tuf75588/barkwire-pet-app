@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Routes from "./components/Routes";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">hey</header>
-      </div>
+      <React.Fragment>
+        <Header />
+        <main id="app">
+          <Routes />
+        </main>
+        <Footer />
+      </React.Fragment>
     );
   }
 }
