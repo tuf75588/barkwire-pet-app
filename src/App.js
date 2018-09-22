@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Routes from "./components/Routes";
+import DogsPage from "./Containers/DogsPage";
 
 class App extends Component {
   render() {
